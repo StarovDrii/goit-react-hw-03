@@ -1,5 +1,6 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -19,7 +20,8 @@ p {
 }
 
 ul,
-ol {
+ol,
+li {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -28,10 +30,6 @@ ol {
 a {
   color: currentColor;
   text-decoration: none;
-}
-
-button {
-  cursor: pointer;
 }
 
 img {
@@ -50,9 +48,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: lightgrey;
   cursor: pointer;
   transition: border-color 0.25s;
 }
-
-
